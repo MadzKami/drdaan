@@ -1,0 +1,176 @@
+body {
+	background-color: #2C2F33;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3136;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .header-logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #7289da;
+  }
+
+  .header-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .header-icons a:hover {
+    color: #7289da;
+  }
+
+.container {
+	max-width: 800px;
+	margin: 10% auto;
+	padding: 20px;
+	background-color: #36393f;
+	border-radius: 10px;
+	text-align: center;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.header {
+	margin-bottom: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-image {
+	margin-right: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.header-image img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.about {
+	margin-bottom: 20px;
+  
+}
+
+.discord-btn {
+	background-color: #7289DA;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	transition: all 0.3s ease;
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: ease-in-out;
+}
+
+.discord-btn:hover {
+	background-color: #677BC4;
+	cursor: pointer;
+	animation-name: none;
+	transform: scale(1.1);
+}
+.discord-widget {
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+}
+/* Navigation de profil */
+.profile-nav {
+  margin-top: 16px;
+  }
+  
+  .profile-nav ul {
+  display: flex;
+  list-style: none;
+  }
+  
+  .profile-nav ul li {
+  margin-right: 24px;
+  }
+  
+  .profile-nav ul li a {
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  }
+  
+  .profile-nav ul li a:hover {
+  background-color: var(--brand-color);
+  }
